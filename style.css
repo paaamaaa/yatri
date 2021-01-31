@@ -1,0 +1,282 @@
+
+.banner {
+    height: 100vh;
+  background: linear-gradient(rgba(34, 35, 40, 0.5),rgba(34, 35, 40, 0.4)),
+url('img1.jpg') no-repeat;
+background-size: cover;
+    align-items: center;
+    background-size: cover;
+}
+
+.nav .container {
+  
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin:  auto;
+    align-items: center;
+}
+
+.logo
+{
+  background-color: transparent;
+  font-size: 40px;
+  font-weight: 500;
+   color: white;
+   font: monospace;
+ }
+
+.menu
+ul {
+  list-style-type: none;
+margin:  auto;
+  padding: auto;
+  overflow: hidden;
+  background-color:transparent;
+
+}
+.menu
+li {
+  float: left;
+}
+.menu
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding:7px;
+  margin:auto;
+  margin-right: 19px;
+   background-color: transparent;
+  text-decoration: none;
+  font-size: 44px;
+  font-weight: 500;
+  font: inherit;
+}
+
+li a:hover:not(.active) {
+  background-color:#8FBABA;
+}
+
+
+.login a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: auto;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 500;
+  background-color: transparent;
+  font: inherit;
+  vertical-align: baseline;     
+   box-sizing: content-box;
+   cursor: pointer;
+
+}
+.login a:hover:not(.active) {
+  background-color:#8FBABA;
+}
+
+
+.tagline{
+color:#CCE6E6;
+word-spacing: 3px;
+letter-spacing: 2px; 
+padding-top: 250px;
+text-align: left;
+
+}
+.paragraph
+{ background-color:#90a4ae;
+  padding:40px;
+  color: white;
+}
+
+.paragraph h3{
+  text-align: center;
+}
+ 
+.paragraph p{
+  font: inherit;
+  font-size: 17px;
+  word-spacing:4px;
+}
+.titlediscover{
+  text-align:center;
+  color:grey;
+  padding: 30px;
+  font: inherit;
+  letter-spacing:1px;
+
+}
+
+.card1{
+background-image : url('im1.jpg');
+background-size:cover;
+width: 45rem;
+height:27rem;
+margin-left: 12.18rem;
+}
+
+.card1 h5
+{
+	color:white;
+	text-align: center;
+	font-style: inherit;
+	font-size: 30px;
+	padding-top: 12rem;
+
+
+}
+.card1 a
+{
+	background-color: transparent;
+	color:white;
+	font-style: inherit;
+	font-size: 15px;
+	margin-left:19.2rem;
+	margin-top: 60px;
+}
+
+.card2{
+background-image : url('im2.jpg');
+background-size:cover;
+width: 27rem;
+height:13rem;
+margin-left: 11rem;
+
+}
+
+.card2 h5
+{
+	color:white;
+	text-align: center;
+	font-style: inherit;
+	font-size: 30px;
+	padding-top: 3.5rem;
+}
+
+.card2 a
+{
+	background-color: transparent;
+	color:white;
+	font-style: inherit;
+	font-size: 15px;
+	margin-left:10rem;
+	margin-top: 30px;
+}
+
+
+.card3{
+background-image : url('im3.jpg');
+background-size:cover;
+width: 17rem;
+height:13rem;
+margin-left: 16rem;
+
+}
+
+.card3 h5
+{
+	color:white;
+	text-align: center;
+	font-style: inherit;
+	font-size: 20px;
+	padding-top: 3.5rem;
+
+}
+.card3 a
+{
+	background-color: transparent;
+	color:white;
+	font-style: inherit;
+	font-size: 15px;
+	margin-left:5rem;
+	margin-top: 20px;
+	
+}
+.card4{
+background-image : url('im4.jpg');
+background-size:cover;
+width: 16rem;
+height:13rem;
+margin-left: 11rem;
+
+
+}
+
+.card4 h5
+{
+	color:white;
+	text-align: center;
+	font-style: inherit;
+	font-size: 20px;
+	padding-top: 3.5rem;
+
+}
+.card4 a
+{
+	background-color: transparent;
+	color:white;
+	font-style: inherit;
+	font-size: 15px;
+	margin-left:5rem;
+	margin-top: 20px;
+	
+}
+
+.card5{
+background-image : url('im5.jpg');
+background-size:cover;
+width: 28rem;
+height:13rem;
+margin-left: 75px;
+
+}
+
+.card5 h5
+{
+	color:white;
+	text-align: center;
+	font-style: inherit;
+	font-size: 30px;
+	padding-top: 3.5rem;
+}
+
+.card5 a
+{
+	background-color: transparent;
+	color:white;
+	font-style: inherit;
+	font-size: 15px;
+	margin-left:10rem;
+	margin-top: 30px;
+}
+
+.card6{
+background-image : url('im6.jpg');
+background-size:cover;
+width: 45rem;
+height:27rem;
+margin-left: 12.18rem;
+}
+
+.card6 h5
+{
+	color:white;
+	text-align: center;
+	font-style: inherit;
+	font-size: 30px;
+	padding-top: 12rem;
+
+}
+.card6 a
+{
+	background-color: transparent;
+	color:white;
+	font-style: inherit;
+	font-size: 15px;
+	margin-left:19.2rem;
+	margin-top: 60px;
+}
